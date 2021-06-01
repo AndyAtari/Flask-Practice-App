@@ -1,0 +1,26 @@
+.message {
+    font-weight: 600;
+    color: purple;
+    font-family: sci-fi;
+    font-size: 100px;
+}
+
+.time {
+    color: purple;
+    font-size: 100px;
+}
+
+@font-face {
+    font-family: sci-fi;
+    src: url(Spantaran-GE2D.ttf);
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+
